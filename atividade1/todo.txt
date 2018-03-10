@@ -1,0 +1,20 @@
+ Você deve construir a home page de um sistema de vendas de produtos/serviços bem simples.
+
+Nesta primeira atividade, o sistema terá duas páginas. Novas páginas serão colocadas depois. 
+Na página inicial, deve existir o nome e a logo marca da loja no topo da página. Logo abaixo 
+deve ter uma lista com as opções:
+
+- entrar/cadastrar
+
+- nossos produtos
+
+- buscar produtos
+
+- sobre nós
+
+Logo abaixo, coloque um video que descreva que apresenta alguns produtos. Mais abaixo,
+um tabela com pelo menos 6 imagens de produtos. Coloque uma âncora que permita ver a tabela 
+quando o usuário clicar "nossos produtos". Pegue imagens e videos da Web
+
+Crie uma outra página que descreva informações sobre a empresa e coloque um link para "sobre nós". 
+Use a mesma formatação da página inicial.
