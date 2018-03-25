@@ -1,0 +1,52 @@
+/* Style the header */
+.header {
+    background-color: #9c9a9af8;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(114, 97, 97);
+    margin: 0;
+
+}
+
+/* Style the top navigation bar */
+#topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+#topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 84px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+#topnav a:hover {
+    background-color: rgb(230, 217, 217);
+    color: black;
+}
+
+p, h1 {
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #9c9a9af8;
+    padding: 10px;
+    text-align: center;
+    height: 45px;
+}

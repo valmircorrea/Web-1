@@ -25,3 +25,11 @@
     Os dados do cadastro ficam ao seu critério, podendo incluir nome, sobrenome, senha, email, telefone,
     cpf, RG, etc.  Para o login o usuário deve definir uma senha no cadastro. Ajuste as páginas do 
     exercício anterior para incluir no menu as opções de login e cadastro.
+    
+3º atividade
+    Aplique formatação CSS ao Sistema de Vendas que está sendo desenvolvido nas aulas práticas 
+    anteriores (4 páginas - home, sobre nós, cadastro, login). A proposta é ter um layout com cabeçalho, 
+    rodapé, menu e conteúdo. Vejam exemplo no W3school com ponto de 
+    partida: https://www.w3schools.com/css/css_website_layout.asp
+
+    Estrutura de pastas: http://www.linhadecodigo.com.br/artigo/955/como-organizar-os-arquivos-e-o-codigo-fonte-de-um-site-ou-sistema-web-parte-1-de-3.aspx

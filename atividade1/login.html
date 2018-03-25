@@ -3,20 +3,46 @@
   <head>
     <meta charset="utf-8" />
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./css/styleLayout.css">  
+  
+    <style>
+      fieldset {
+        text-align: center;        
+      }
+    </style>
+  
   </head>
   <body>
 
+    <div class="header" align="center">
+
+      <img align="left" src="images/logo/celulares.jpg" height="100" width="200" alt="Celulares Store logo"> <br><br>      
+
+      <br><header><h1 align="center">Loja de Celulares</h1></header><br>
+      
+      <div id="topnav">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="produtos.html">Nossos Produtos</a>
+        <a href="login.html">Entrar</a>
+        <a href="cadastrar.html">Cadastrar</a>
+      </div>
+
+    </div>
+
+    <h1>Entrar</h1><br />
     <form method="get" action="index.html">
       
       <fieldset>
-        <legend>Faça seu login Login</legend>
         <div>
+          <div>
             <label>Nome de Usuário</label><br/>
             <input type="text" name="UserName"/>
-        </div>
-        <div>
+          </div>
+          <div>
             <label>Senha</label><br/>
             <input type="password" name="password"/>
+          </div>
         </div>
         <br/>
         <div>
@@ -27,6 +53,5 @@
 
     </form>
     <br/>
-    <a href="index.html">Voltar a página inical</a>
   </body>
 </html>
