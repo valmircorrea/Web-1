@@ -1,51 +1,163 @@
-<!--
-@name Valmir Correa da Silva Junior
--->
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <title>Celures Store</title>
-    <link rel="stylesheet" type="text/css" href="./css/styleLayout.css">
-  </head>
-  <body>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/styleLayout.css"> -->
 
-    <div class="header" align="center">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-      <img align="left" src="images/logo/celulares.jpg" height="100" width="200" alt="Celulares Store logo"> <br><br>      
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
 
-      <br><header><h1 align="center">Loja de Celulares</h1></header><br>
-      
-      <div id="topnav">
-        <a href="index.html">Home</a>
-        <a href="sobre.html">Sobre nós</a>
-        <a href="produtos.html">Nossos Produtos</a>
-        <a href="login.html">Entrar</a>
-        <a href="cadastrar.html">Cadastrar</a>
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {   
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+
+        /* Fake image */
+        .img {
+            background-color: white;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {   
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img align="left" src="images/logo/logo.png" height="100" width="150" alt="logo">
+    <h1 align="center">Loja de Celulares</h1>
+    <p>A melhor loja de celulares do Brasil voce encotra aqui!</p>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre nós</a>
+    <a href="produtos.html">Nossos Produtos</a>
+    <a href="login.html" style="float:right">Entrar</a>
+    <a href="cadastrar.html" style="float:right">Cadastrar</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Ultimas Noticias</h2>
+      <h5>Smartphones, Março, 2018</h5>
+      <div class="img" style="height:400px;">
+            <p>Iphone X</p> <br>
+            <img align="center" src="images/produtos/iphoneX.jpeg" height="200" width="400" alt="iphone X">
       </div>
-
     </div>
-    <div align="center">
-      <form>
-        <br>Busca de Produtos:<br>
-        <input type="text" name="firstname">
-        <button>Buscar</button>
-          <br>
-      </form>
-
-    <br>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Mais comprados</h3>
+      <div><p>Iphone X</p></div>
+      <div><p>Iphone 8</p></div>
+      <div><p>Iphone SE</p></div>
     </div>
-    <div class="row" align="center">
-      <iframe width="400" height="200" src="https://www.youtube.com/embed/X492DCfUJJk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="card">
+      <h3>Redes Sociais</h3>
+      <p>Facebook: </p>
+      <p>Instagram: </p>
+      <p>Twitter: </p>
     </div>
-    <br>
+  </div>
+</div>
 
-    <div class="footer">
-      <p>Rodape</p>
-    </div>
+<div class="footer">
+    <h2>Todos os direitos reservados</h2>
+</div>
 
-    <div class="footer">
-    </div>
-
-  </body>
+</body>
 </html>
